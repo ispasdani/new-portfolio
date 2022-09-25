@@ -1,0 +1,38 @@
+.browserFrame {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18.75rem;
+  height: 12.5rem;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #e100ff, #51fcff) 1;
+  background-color: #14023e;
+  z-index: 1000;
+  margin: 20px;
+  transition: 0.5s all ease-in-out;
+}
+
+.browserFrame:hover {
+  transform: translateY(-20px) translateX(-20px);
+}
+
+.browserTopBar {
+  width: 100%;
+  height: 1.875rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #e100ff 40%, #51fcff 100%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.browserTopBar p {
+  font-size: 2rem;
+  margin: 0px 10px;
+}
+
+.browserTopBar p:hover {
+  color: #e100ff;
+}

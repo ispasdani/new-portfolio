@@ -1,0 +1,45 @@
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icons svg {
+  width: 40px;
+  height: 40px;
+  margin: 10px 20px;
+  color: #51fcff;
+}
+
+.icons {
+  transition: 0.3s all ease-in-out;
+  cursor: none;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+.facebook-icon svg:hover {
+  color: #3566c8;
+}
+
+.twitter-icon svg:hover {
+  color: #1da1f2;
+}
+
+.instagram-icon svg:hover {
+  color: #e33196;
+}
+
+.linkedin-icon svg:hover {
+  color: #00aafe;
+}
+
+.github-icon svg:hover {
+  color: #7f4bce;
+}
